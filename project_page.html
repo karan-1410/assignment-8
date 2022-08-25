@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title> Karan Shah : projects page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Nav bar -->
+        <nav class = "navbar">
+        <!--Brand Mark-->
+        <a href= "./project_page.html" id = "navbar-brand">KS</a>
+
+        <!--Navigation menu-->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+              <li><a href="./project_page.html">Projects</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="https://drive.google.com/file/d/1Y06i_zVFNahZOqtsAyxKUprh64dwQbde/view">Resume</a></li>
+            </div>
+        </ul>
+        </nav>
+        <h1 class = "page-title">PROJECTS</h1>
+            <!--Page Title Line-->
+            <div class = "Title">Hi! I am <span class= skills id="name">Karan Shah.</span><br>My passion lies in the world of <span class= "skills">Intelligent Environments</span> and <span class = "skills">Augmented Reality</span>. Feel free to check out my projects below.
+            </div>
+                <!--Page Content-->
+                <div class="grid-row-1">
+			        <a class="project-box-3" href="summer_research.html" data-tilt>
+				        <div class="project-margin">
+					        <p>Summer Research &#10132 </p>
+				        </div>
+                            <img src="blockchain_image.png" alt="Summer-research project photo" class = "Block-Image">
+			        </a>
+			        <a class="project-box-2" href="./cybernetics_and_ai.html" data-tilt>
+				        <div class="project-margin">
+					        <p>Cybernetics and AI &#10132 </p>
+				        </div>
+                            <img src="cybernetics_and_ai.png" alt = "Cybernetics and AI project photo" class = "Cyb-Image">
+                    </a>
+                </div>
+                <div class="grid-row-2">
+                    <a class="project-box-one" href="systems_giga_map.html" data-tilt>
+                        <div class="project-margin">
+                            <p>Systems Giga Map &#10132 </p>
+                        </div>
+                            <img src="systems_giga_map.png" alt = "Systems giga map project photo" class = "Sys-Image">
+                        </a>
+                    </div>
+	    </div>
+        <div class="footer">
+            <footer>
+                <div class = "container">
+                    <h3>Let's link up! </h3>
+                    <p>If you would like to talk to me about my portfolio and skills feel free to reach out to me on www.krshah@andrew.cmu.edu</p>
+                </div>
+            </footer>
+        </div>
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+        <script src="tilt/tilt.jquery.min.js"></script>
+        <script >
+            $('.js-tilt').tilt({
+                scale: 1.1
+            })
+        </script>
+    
+
+</body>
+</html>
