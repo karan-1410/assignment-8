@@ -20,6 +20,8 @@ This is a portfolio website for the sake of showing my work as a Design and HCII
  <br>
  <br>
 ** Iteration from assignment 7**
+ <br>
+ <br>
  Unfortunately I was extremely sick during the time of assignment 7. So I had to delay to progress of my website. I did not use p5.js to make a particle system because it was not possible to implement it in the project. Also after doing some research I realised that my project goals were out of my skill level and also too much. What I mean by that is that, better portfolios are usually more effective if they easier to use and quick to navigate through for recruiters, so I made it simpler.
 <br>
  <br>
